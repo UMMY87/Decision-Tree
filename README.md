@@ -19,11 +19,19 @@ Initializes X_train and y_train arrays with features and labels respectively, us
 ## Evaluating Splits
 The script evaluates each feature's effectiveness as a decision node by calculating its information gain.
 
-## Building and Visualizing the Decision Tree
-Constructs the decision tree recursively and visualizes it using Graphviz integration, allowing for visual representations of the tree structure.
-
 ## Graphviz Integration
 Details the setup required for Graphviz, critical for rendering the tree diagrams.
+
+## Building and Visualizing the Decision Tree
+Constructs the decision tree recursively and visualizes it using Graphviz integration, allowing for visual representations of the tree structure.
+### Plot-of-H(p)-vs-p
+![Plot-of-H(p)-vs-p](https://github.com/UMMY87/Decision-Tree/assets/117314436/2b2b8455-236f-48b7-a6f3-34b82fb385e4)
+
+### Visualize decision tree split on ears
+![tree-viz-split-on-ears](https://github.com/UMMY87/Decision-Tree/assets/117314436/6ec89d3c-379c-4eb4-b779-ad6cc88f9a94)
+
+### Complete Visualize decision tree
+![tree-viz-complete](https://github.com/UMMY87/Decision-Tree/assets/117314436/9548c65c-ab44-40c7-8924-95c7284a9746)
 
 ## Summary:
 This script serves as a comprehensive guide to understanding decision trees, integrating both theoretical concepts and practical implementations. It is a valuable educational resource for learners looking to delve into machine learning algorithms, particularly in optimizing decision tree classifiers.
